@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
             this,R.layout.list_fruit_items,
             R.id.tvFruit,
             arrayOf(
-                 
                 "Apples",
                 "Mangos",
                 "Guavas",
