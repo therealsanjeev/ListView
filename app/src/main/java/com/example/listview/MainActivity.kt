@@ -13,26 +13,26 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        lVFruits.adapter=ArrayAdapter<String>(
-            this,R.layout.list_fruit_items,
-            R.id.tvFruit,
-            arrayOf(
-                "Apples",
-                "Mangos",
-                "Guavas",
-                "Bananas",
-                "Grapes",
-                "Watermelons",
-                "Kiwis",
-                "Melons",
-                "Papayas",
-                "Strawberries"
-            )
-        )
-        lVFruits.setOnItemClickListener { parent, view, position, id ->
-            Toast.makeText(this,
-                "Jonny ate $position ${view.tvFruit.text}",
-                Toast.LENGTH_SHORT).show()
-        }
+//        lVFruits.adapter=ArrayAdapter<String>(
+//            this,R.layout.list_fruit_items,
+//            R.id.tvFruit,
+//            arrayOf(
+//                "Apples",
+//                "Mangos",
+//                "Guavas",
+//                "Bananas",
+//                "Grapes",
+//                "Watermelons",
+//                "Kiwis",
+//                "Melons",
+//                "Papayas",
+//                "Strawberries"
+//            )
+//        )
+//        lVFruits.setOnItemClickListener { parent, view, position, id ->
+//            Toast.makeText(this,
+//                "Jonny ate $position ${view.tvFruit.text}",
+//                Toast.LENGTH_SHORT).show()
+//        }
     }
 }
