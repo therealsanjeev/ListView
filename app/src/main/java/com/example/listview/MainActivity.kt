@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val fruit = Fruit.getRandomFruits(100)
 
 //        lVFruits.adapter=ArrayAdapter<String>(
 //            this,R.layout.list_fruit_items,
