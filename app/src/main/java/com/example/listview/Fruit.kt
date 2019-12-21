@@ -8,15 +8,20 @@ data class Fruit(
     val quantity: Int
 ){
     companion object{
+        @JvmField
         val FRUIT_NAMES= arrayOf(
             "Apple","Mango","Orange","pineapple",
             "Grapes","kiwi","Strawberry","Banana",
             "Guava"
         )
+
+        @JvmField
         val ORIGINS= arrayOf(
             "Lucknow","Nagpur","Srinagar",
             "Patna","Mysore"
         )
+
+        @JvmStatic
         fun getRandomFruits(n:Int ):ArrayList<Fruit>{
             val fruitArray=ArrayList<Fruit>(n)
 
