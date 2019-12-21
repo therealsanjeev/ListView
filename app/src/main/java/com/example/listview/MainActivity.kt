@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
 //        lVFruits.adapter=ArrayAdapter<String>(
 //            this,R.layout.list_fruit_items,
 //            R.id.tvFruit,
